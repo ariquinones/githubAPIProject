@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Github APIs</title>
+	<link rel="stylesheet" type="text/css" href="http://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<img class="githubLogo" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png">
+		<input class="headerInput" type="text" placeholder="Search GitHub">
+		<ul class="headerNavigation">
+			<li class="headerNavigationOption">Pull Requests</li>
+			<li class="headerNavigationOption">Issues</li>
+			<li class="headerNavigationOption">Gists</li>
+		</ul>
+	</header>
+	<div id="mainContainer">
+		<div id="profileInformation"></div>
+		<div id="rightCol">
+			<div class="topRightInformation">
+				<div class="topCenterOptionsDiv">
+					<ul class="topCenterOptions">
+						<li class="topCenterLinks">Contributions</li>
+						<li class="topCenterLinks">Repositories</li>
+						<li class="topCenterLinks">Public Activity</li>
+					</ul>
+					<button class="followButton">+ Follow</button>
+				</div>
+				<input placeholder="Find a repository..."> 
+				<button>Search</button>
+				<ul class="optionLinks">
+					<li>All</li>
+					<li>Sources</li>
+					<li>Forks</li>
+					<li>Mirrors</li>
+				</ul>
+			</div>
+			<div id="container"></div>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
